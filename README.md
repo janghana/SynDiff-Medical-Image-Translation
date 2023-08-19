@@ -1,7 +1,5 @@
 # Multi-Modal Enhancement of CT Images using MRI-T1 Data: An ADVERSARIAL DIFFUSION APPROACH
 
-# SynDiff: Advanced Generative Techniques for Multi-modal Medical Image Translation
-
 ## Abstract
 
 
