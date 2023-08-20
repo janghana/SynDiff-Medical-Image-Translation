@@ -24,13 +24,13 @@ In the ever-evolving domain of Computer Vision, Generative Adversarial Networks 
 
 - **Focus on Bile Duct Tissue**: Demonstrating SynDiff's efficacy, the model aims to enhance the visibility of the bile duct in CT scans by leveraging MRI data.
 
-## Usage
+<!-- ## Usage
 
 [Placeholder for usage instructions, installation guidelines, and code examples]
 
 ## References
 
-1. 
+1.  -->
 
 ## Author
 
