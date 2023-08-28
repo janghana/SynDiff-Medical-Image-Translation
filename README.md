@@ -1,4 +1,4 @@
-# Multi-Modal Enhancement of CT Images using MRI-T1 Data: An ADVERSARIAL DIFFUSION APPROACH
+# Bi-Directional Enhancement of Medical Images using MRI-T1 and CT Data:An Adversarial Diffusion Approach
 
 <figure>
     <img src='./figure1.png' />
