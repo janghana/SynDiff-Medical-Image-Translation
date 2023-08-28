@@ -1,7 +1,7 @@
 # Multi-Modal Enhancement of CT Images using MRI-T1 Data: An ADVERSARIAL DIFFUSION APPROACH
 
 <figure>
-    <img src='./figure1.png' alt='' />
+    <img src='./figure1.png' />
     <figcaption>Medical Image Generative Quadrilemma</figcaption>
 </figure>
 
