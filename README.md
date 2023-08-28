@@ -10,12 +10,17 @@ Medical image translation is crucial in the medical field to ensure diagnostic a
 
 <figure>
     <img src='./figure2.png' />
-    <figcaption>Adversarial diffusion process</figcaption>
+    <figcaption>Adversarial Diffusion Process</figcaption>
 </figure>
 
 ## Introduction
 
 In the ever-evolving domain of Computer Vision, Generative Adversarial Networks (GANs) have set significant benchmarks in image generation. However, with the rise of intricate domains like medical imaging, the field has witnessed the emergence of diffusion models, signaling a paradigm shift. SynDiff, a model tailored for medical image synthesis, leverages the strengths of diffusion techniques and aims to address the challenges posed by the Medical Image Generative Quadrilemma.
+
+<figure>
+    <img src='./figure3.png' />
+    <figcaption>SynDiff Training Process</figcaption>
+</figure>
 
 ## Key Highlights
 
