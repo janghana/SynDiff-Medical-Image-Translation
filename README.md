@@ -1,12 +1,11 @@
 # Bi-Directional Enhancement of Medical Images using MRI-T1 and CT Data:An Adversarial Diffusion Approach
 
+## Figure
+
 <figure>
     <img src='./figures/figure1.png' />
     <figcaption>Medical Image Generative Quadrilemma</figcaption>
 </figure>
-
-## Abstract
-Medical image translation is crucial in the medical field to ensure diagnostic accuracy. Multi-modal imaging offers profound insights into anatomical research, enhancing the precision of diagnoses. Additionally, the complementary tissue information provided by each modality refines the diagnostic results and elevates the effectiveness of subsequent imaging tasks. However, medical image synthesis remains a significant challenge in the medical domain. While using GANs for target image synthesis is common, GAN models generally exhibit limitations in sample fidelity. Diffusion models, on the other hand, effectively capture the intricate structures and patterns of data by decomposing them progressively, leading to more refined image synthesis. The advantages of these diffusion models become particularly critical with complex medical imaging data. In this study, considering the challenge of the generative model known as the generative learning trilemma, we apply it to the field of medical image generation, emphasizing a novel aspect called anatomical fidelity. This leads to the proposal of a new concept, Medical Image Generative Quadrilemma. This study employs SynDiff, a modeling based on the adversarial diffusion model, for enhanced performance in medical image translation. To directly capture the correlation of image distribution, SynDiff utilizes a conditional diffusion process that incrementally maps noise and source images to the target image. For swift and precise image sampling during inference, large diffusion steps are taken with adversarial projections in the reverse diffusion direction. To facilitate training on unpaired datasets, a cycle-consistent architecture has been designed, incorporating both diffusive and non-diffusive modules that bilaterally translate between two modalities. Comprehensive evaluations have been reported on the utility of SynDiff against competing GAN and diffusion models in multi-contrast MRI and MRI-CT translation. SynDiff addresses the medical image generative quadrilemma and is anticipated to bring significant advancements not only in the medical imaging domain but also in other multi-modal imaging fields.
 
 <figure>
     <img src='./figures/figure2.png' />
@@ -21,6 +20,9 @@ In the ever-evolving domain of Computer Vision, Generative Adversarial Networks 
     <img src='./figures/figure3.png' />
     <figcaption>SynDiff Training Process</figcaption>
 </figure>
+
+## Abstract
+Medical image translation is crucial in the medical field to ensure diagnostic accuracy. Multi-modal imaging offers profound insights into anatomical research, enhancing the precision of diagnoses. Additionally, the complementary tissue information provided by each modality refines the diagnostic results and elevates the effectiveness of subsequent imaging tasks. However, medical image synthesis remains a significant challenge in the medical domain. While using GANs for target image synthesis is common, GAN models generally exhibit limitations in sample fidelity. Diffusion models, on the other hand, effectively capture the intricate structures and patterns of data by decomposing them progressively, leading to more refined image synthesis. The advantages of these diffusion models become particularly critical with complex medical imaging data. In this study, considering the challenge of the generative model known as the generative learning trilemma, we apply it to the field of medical image generation, emphasizing a novel aspect called anatomical fidelity. This leads to the proposal of a new concept, Medical Image Generative Quadrilemma. This study employs SynDiff, a modeling based on the adversarial diffusion model, for enhanced performance in medical image translation. To directly capture the correlation of image distribution, SynDiff utilizes a conditional diffusion process that incrementally maps noise and source images to the target image. For swift and precise image sampling during inference, large diffusion steps are taken with adversarial projections in the reverse diffusion direction. To facilitate training on unpaired datasets, a cycle-consistent architecture has been designed, incorporating both diffusive and non-diffusive modules that bilaterally translate between two modalities. Comprehensive evaluations have been reported on the utility of SynDiff against competing GAN and diffusion models in multi-contrast MRI and MRI-CT translation. SynDiff addresses the medical image generative quadrilemma and is anticipated to bring significant advancements not only in the medical imaging domain but also in other multi-modal imaging fields.
 
 ## Key Highlights
 
