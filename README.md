@@ -70,5 +70,5 @@ Han Jang - Korea Institute of Science and Technology, Seoul, South Korea.
 
 
 ## Reference
-https://github.com/icon-lab/SynDiff
-https://arxiv.org/abs/2207.08208
+- https://github.com/icon-lab/SynDiff
+- https://arxiv.org/abs/2207.08208
