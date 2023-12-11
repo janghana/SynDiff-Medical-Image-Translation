@@ -67,3 +67,8 @@ python3 test.py --image_height 400 --image_width 480 --exp exp_syndiff --num_cha
 ## Author
 
 Han Jang - Korea Institute of Science and Technology, Seoul, South Korea.
+
+
+## Reference
+https://github.com/icon-lab/SynDiff
+https://arxiv.org/abs/2207.08208
