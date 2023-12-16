@@ -64,6 +64,17 @@ python3 train.py --image_height 400 --image_width 480 --exp exp_syndiff --num_ch
 python3 test.py --image_height 400 --image_width 480 --exp exp_syndiff --num_channels 2 --num_channels_dae 64 --ch_mult 1 1 2 2 4 --num_timesteps 4 --num_res_blocks 2 --batch_size 1 --embedding_type positional  --z_emb_dim 256 --contrast1 CT --contrast2 MRT1 --which_epoch 100 --gpu_chose 1 --input_path ../dataset/test --output_path /output/for/results
 ```
 
+## Citation
+```
+@misc{özbey2023unsupervised,
+      title={Unsupervised Medical Image Translation with Adversarial Diffusion Models}, 
+      author={Muzaffer Özbey and Onat Dalmaz and Salman UH Dar and Hasan A Bedel and Şaban Özturk and Alper Güngör and Tolga Çukur},
+      year={2023},
+      eprint={2207.08208},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
+```
 
 
 ## Author
