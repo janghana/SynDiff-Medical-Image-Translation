@@ -38,8 +38,6 @@ Medical image translation is crucial in the medical field to ensure diagnostic a
 
 - **SynDiff Model**: This study introduces SynDiff, an adversarial diffusion model tailored for medical image synthesis. SynDiff uses conditional diffusion to produce the desired target image, offering efficiency with a larger step size. It integrates both diffusive and non-diffusive processes and has been extensively tested on multi-contrast MRI-CT translations.
 
-- **Focus on Bile Duct Tissue**: Demonstrating SynDiff's efficacy, the model aims to enhance the visibility of the bile duct in CT scans by leveraging MRI data.
-
 <!-- ## Usage
 
 [Placeholder for usage instructions, installation guidelines, and code examples]
